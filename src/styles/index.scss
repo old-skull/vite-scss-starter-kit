@@ -1,0 +1,12 @@
+@import 'normalize.css';
+
+@import 'vars';
+@import 'mixins';
+
+* {
+  @include reset();
+}
+
+body {
+  color: $color-black;
+}
