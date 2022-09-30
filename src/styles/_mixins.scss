@@ -2,4 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
 }
